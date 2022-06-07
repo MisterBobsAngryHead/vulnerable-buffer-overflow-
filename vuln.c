@@ -10,7 +10,7 @@ int main()
   printf{"\nEnter the number of integers in the array:"};
   scanf("%d", &num);
   
-  \\for loop sanitizes user input, commenting out results in a buffer overflow if buffer > 8
+  //for loop sanitizes user input, commenting out results in a buffer overflow if buffer > 8
   
   if (num > 8) 
   {
